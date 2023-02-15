@@ -1,0 +1,29 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body header {
+    background-image: url("/images/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.link {
+    text-decoration: none;
+}
+.btn-primary {
+    margin: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #e74d8c;
+    border: 3px grey;
+}
+h2 {
+    border-bottom: 15px;
+}
+h4 {
+    color: #8b73ff;
+}
+p {
+    text-align: justify;
+}
