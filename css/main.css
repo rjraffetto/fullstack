@@ -1,3 +1,4 @@
+
 *{
     font-family: 'Poppins', sans-serif;
 }
@@ -5,6 +6,9 @@ body header {
     background-image: url("/images/header.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+#burger{
+    justify-content: start;
 }
 .link {
     text-decoration: none;
@@ -19,11 +23,21 @@ body header {
 }
 h2 {
     border-bottom: 15px;
+    text-align: center;
 }
 h4 {
     color: #8b73ff;
-    text-align: justify;
+    text-align: left;
+    font-size: 87%;
+    text-indent: 15px;
 }
 p {
-    text-align: justify;
+    text-align: left;
+    line-height: 98%;
+}
+.margen{
+    text-indent: 15px;
+}
+.col-md-6{
+    padding-top: 40px;
 }
