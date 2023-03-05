@@ -1,0 +1,29 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    p{
+        font-size: small;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: justify;
+        inherits: 15px;
+    }
+    h2{
+        border-bottom: 15px;
+        text-align: center;
+        margin-top: 0.5rem;
+        margin-bottom: 0.25rem;
+        font-size: 1.2rem;
+        text-transform: upperca  
+    }
+    h3 {
+        border-bottom: 15px;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    h5 {
+        font-size: 80%;
+    }
+}
