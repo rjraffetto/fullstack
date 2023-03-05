@@ -15,6 +15,17 @@ body{
         #burger{
             justify-content: start;
         }
+        .navbar-brand{
+            animation: girarX 6s linear infinite;
+        }
+        @keyframes girarX { 
+            from {
+              transform: rotateX(90deg);
+            }
+            to {
+              transform: rotateX(0deg);
+            }
+        }                   
     }  
     section{
         .btn-primary {

@@ -58,6 +58,17 @@ body header {
 body header #burger {
   justify-content: start;
 }
+body header .navbar-brand {
+  animation: girarX 6s linear infinite;
+}
+@keyframes girarX {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}
 body section .btn-primary {
   margin: 20px;
   color: #e74d8c;
