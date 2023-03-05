@@ -2,6 +2,11 @@ body{
     margin: 15px;
     padding: 10px;
     border: 15px;
+    section{
+        .form-group{
+            margin: 10px 10px 10px 10px;
+        }
+    }
     footer{
         .col-md-6{
             padding-top: 25px;
